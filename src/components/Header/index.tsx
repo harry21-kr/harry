@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="fixed w-full border-b h-16 border-gray-600 flex items-center justify-between px-12">
+    <header className="fixed z-50 bg-black w-full border-b h-16 border-gray-600 flex items-center justify-between px-12">
       <div className="flex items-center gap-3">
         <Image
           src="/vercel.svg"
